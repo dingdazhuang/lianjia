@@ -1,0 +1,22 @@
+h1,h2,h3,h4,h5,h6,body,html,p,ol,ul,button,input,ol,dd,dl,dt{
+  padding:0;margin:0
+}
+ul{
+  list-style:none
+}
+a{
+  text-decoration: none;
+  color:#394043;
+}
+img{
+  vertical-align: top;
+}
+button,input{
+  border:0;
+  outline:none;
+}
+.clear:after{
+  content:'';
+  display:block;
+  clear:both;
+}
